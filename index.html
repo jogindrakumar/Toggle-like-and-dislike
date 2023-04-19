@@ -8,9 +8,32 @@
     <title>Toggle Like and Dislike</title>
     <!-- font awesome CDN link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin-left: 50px;
+        }
+        
+        .fa {
+            font-size: 50px;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .fa:hover {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Toggle Like and Dislike</h1>
+    <i class="fa fa-thumbs-up" onclick="myFunction(this)"></i>
+    <script>
+        function myFunction(x) {
+            x.classList.
+            toggle("fa-thumbs-down");
+        }
+    </script>
 
 </body>
 
